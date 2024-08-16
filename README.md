@@ -62,4 +62,4 @@ For my own system, I take the output of Money Mapper and copy/paste the CSV data
 The real benefit of Money Mapper depends on how much work you put in to creating your own `application-transactionclassification.yml`.  Starting with a blank configuration file first means a heavy startup cost.  This is the price of taking full control of the transaction classification.
 Whenever I run Money Mapper I often find transactions that are not classified.  For example, it could be a new restaurant I've recently tried for the first time.  If I think I'll go to this restaurant again, I may add an entry to my `application-transactionclassification.yml` so that the classification happens automatically next time.  If I don't ever plan to go back, I will manually make the classification on that transaction in my budgeting spreadsheet and not automate it by adding an entry.  
 
-Please reach out to me if you find this useful or have suggestions for improvement!
+Please file an issue if you find this useful or have suggestions for improvement!
