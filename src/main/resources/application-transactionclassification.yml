@@ -1,0 +1,8 @@
+transactionclassification:
+  configurations:
+    - description: "NATIONWIDE"
+      tag: "Committed"
+      category: "Insurance"
+    - description: "McDonald's"
+      tag: "Eating Out"
+      category: "Fast Food"

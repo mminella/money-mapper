@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "monthly"
+    assignees:
+    - robertmcnees
+    target-branch: "main"
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "monthly"
+    assignees:
+    - robertmcnees
+    target-branch: "main"
